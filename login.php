@@ -87,7 +87,7 @@
       <div class="col-md-12 col-sm-12">
         <div class="login-form col-md-12 col-sm-12" >
           <h2>Login</h2>
-          <form action="">
+          <form action="comprueba.php">
             <fieldset>
               <div class="clearfix">
                 <input type="text" placeholder="Username">
