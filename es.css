@@ -1,0 +1,106 @@
+/* CSS Document */
+
+#inicio
+{
+background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+width: 100%;
+min-height: 800px;
+}
+
+#menu
+{
+height:900px;
+width:100%;
+}
+#esp
+{
+height:100px;
+width:100%;
+}
+
+#text
+{
+font-family:"Courier New", Courier, monospace;
+font-size:50px;
+font-style:italic;
+}
+#text1
+{
+font-family:"Courier New", Courier, monospace;
+font-size:30px;
+}
+#text2
+{
+font-family:"Courier New", Courier, monospace;
+font-size:20px;
+}
+.boton{
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 100%;
+    height: 40px;
+    width: auto;
+    color: white;
+    font-family: monospace;
+
+}
+
+#text3
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:40px;
+
+}
+#text4
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+
+}
+
+#text5
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:15px;
+text-align:left;
+
+}
+#foto
+{
+height:400px;
+width:250px;
+float:left;
+
+}
+#huella
+{
+width:600px;
+height:160px;
+}
+#delante
+{
+height:450px;
+width:600px;
+ border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+
+#delante2
+{
+height:600px;
+width:600px;
+ border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.table {
+	width: 530px;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	background-color: #A8E8FD;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.clase {
+	background-color: rgba(232,255,254, 0.5);
+	/* [disabled]border-spacing: 10px; */
+	border-radius: 5px;
+	border: dashed;
+	border: ridge rgb(204,204,204);
+}
