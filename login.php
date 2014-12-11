@@ -87,13 +87,13 @@
       <div class="col-md-12 col-sm-12">
         <div class="login-form col-md-12 col-sm-12" >
           <h2>Login</h2>
-          <form action="comprueba.php">
+          <form action="comprueba.php" method="post"  >
             <fieldset>
               <div class="clearfix">
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" name="usuario">
               </div>
               <div class="clearfix">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password" name="secreto">
               </div>
               <button class="btn primary" type="submit">Sign in</button>
             </fieldset>

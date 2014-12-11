@@ -17,7 +17,18 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+     <?php
+        SESSION_START();
 
+        function comprueba_session(){
+            @$user = $_SESSION['usuario'];
+            @$aut = $_SESSION['autenticado'];
+            if($aut == "si"){
+                return "<a href='cerrar.php'>Bienvenido/a ".$user."</a>";
+            }
+
+        }
+    ?>
 </head>
 <body >
 
@@ -37,6 +48,7 @@
                      <li><a href="penales.php">PENALES</a></li>
                     <li><a href="medicos.php">MEDICOS</a></li>
                      <li><a href="login.php">LOGIN</a></li>
+                    <li><?php echo comprueba_session() ;?></li>
 
                 </ul>
             </div>
