@@ -37,7 +37,7 @@
   <tr>
   	<?php
 		while($row = mysqli_fetch_array($resultado)){
-		echo "<th class='clase' scope='col'>$row[0]</th>
+		echo "<th class='clase' scope='col'><a href='mostrarcarnet.php?rut=$row[0]'>$row[0]</a></th>
     <th class='clase' scope='col'>
     <form name='form1' method='post' action='registrosMedicos.php'>
 		<input type='hidden' name='rut' value='$row[0]'>
